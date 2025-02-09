@@ -50,7 +50,7 @@ activate your newly created `virtualenvironment`:
 now execute following command:
 
 ``` {.CodeMirror-line role="presentation"}
-pip install python-socketio gevent requests websocket-client
+pip install -r req.txt
 ```
 
 the above command installs some python packages we need for this
@@ -114,7 +114,7 @@ execute following command:
 
 
 ``` {.CodeMirror-line role="presentation"}
-pip3 install python-socketio gevent requests websocket-client
+pip install -r req.txt
 ```
 
 the above command installs some python packages we need for this
@@ -192,7 +192,7 @@ now execute following command:
 
 
 ``` {.CodeMirror-line role="presentation"}
-pip install python-socketio gevent requests websocket-client
+pip install -r req.txt
 ```
 
 the above command installs some python packages we need for this
@@ -247,7 +247,7 @@ following command:
 
 
 ``` {.CodeMirror-line role="presentation"}
-sudo pip3 install python-socketio gevent requests websocket-client
+pip install -r req.txt
 ```
 
 the above command installs some python packages we need for this
