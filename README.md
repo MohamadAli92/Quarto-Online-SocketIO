@@ -33,6 +33,17 @@ place on the board. A player wins by placing a piece on the board which
 forms a horizontal, vertical, or diagonal row of four pieces, all of which
 have a common attribute (all short, all circular, etc.).
 
+## **Screenshots**:
+
+<table>
+ <tr>
+  <td><img src="https://github.com/user-attachments/assets/bd9b4da4-828a-4219-9221-f377b293d5e8"></td>
+ </tr>
+ <tr>
+  <td><img src="https://github.com/user-attachments/assets/a9ba41a3-d6af-4258-93a6-0f8297f21d58"></td>
+ </tr>
+</table>
+
 ## **Building**:
 
 ### **Windows (the virtual environment way)**
