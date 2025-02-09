@@ -8,8 +8,34 @@ project.
 I highly and strongly recommend that you do it *the virtual environment
 way*.
  
+## **Description**:
 
-## Windows (the virtual environment way)
+In this two-player game two users can play over a local network.
+This project consists of two nodes (clients, players) and a server. The
+server is responsible for managing the game and passing data between
+nodes as the players take their turn playing the game.
+These two nodes connect to the server using sockets. (which I will
+discuss later).
+There are two main points in this project.
+ 1. writing a fully functional turn-based two-player game,
+ 2. separating the game into two nodes, and connecting them to the
+ server through sockets
+
+
+The game is played on a 4×4 board. There are 16 unique pieces to play
+with, each of which is either:
+    - tall or short
+    - black or white
+    - square or circular
+    - hollow-top or solid-top
+Players take turns choosing a piece which the other player must then
+place on the board. A player wins by placing a piece on the board which
+forms a horizontal, vertical, or diagonal row of four pieces, all of which
+have a common attribute (all short, all circular, etc.).
+
+## **Building**:
+
+### **Windows (the virtual environment way)**
 
 Open `cmd`or `powershell` in the folder which `server.py` and
 `client.py`are in:
@@ -98,7 +124,7 @@ socket id that defers time to time.
 
  
 
-## Windows (not recommended)
+### **Windows (not recommended)**
 
 Open `cmd`or `powershell` in the folder which `server.py` and
 `client.py`are in:
@@ -161,10 +187,7 @@ socket id that defers time to time.
 **You\'re good to go.**
 
  
-
- 
-
-## Linux (the virtual environment way)
+### **Linux (the virtual environment way)**
 
 Open a terminal in the directory which `server.py` and `client.py`are in
 and install `virtualenv` package using `pip`:
@@ -240,7 +263,7 @@ socket id that defers time to time.
 
  
 
-## Linux (not recommended)
+### **Linux (not recommended)**
 
 Open a terminal which `server.py` and `client.py`are in and execute
 following command:
